@@ -23,12 +23,13 @@
         android:id="@+id/gameWonConstraintLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/youWinBackground">
+        android:background="@color/colorPrimaryDark">
 
         <Button
             android:id="@+id/nextMatchButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:background="@drawable/ic_rec7"
             android:paddingStart="@dimen/button_padding"
             android:paddingEnd="@dimen/button_padding"
             android:text="Next Match"
